@@ -18,7 +18,7 @@ module.exports = function(context) {
             console.log('iOS platform added successfully');
         } catch (err) {
             console.error('Error adding iOS platform:', err);
-            return; // Không tiếp tục nếu add platform thất bại
+            return;
         }
     }
 
