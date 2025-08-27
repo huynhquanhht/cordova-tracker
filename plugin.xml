@@ -42,7 +42,7 @@
         <source url="https://github.com/snowplow/snowplow-ios-tracker" />
       </config>
       <pods use-frameworks="true">
-        <pod name="SnowplowTracker" spec="~>6.2.2" />
+        <pod name="SnowplowTracker" version="6.2.2" />
       </pods>
     </podspec>
   </platform>
