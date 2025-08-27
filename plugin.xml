@@ -35,6 +35,7 @@
       </config>
       <pods use-frameworks="true">
         <pod name="Tracker" spec="~> 6.1.0" />
+        <pod name="SnowplowTracker" spec="~> 6.2.2" />
       </pods>
     </podspec>
   </platform>
