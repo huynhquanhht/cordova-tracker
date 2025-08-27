@@ -38,11 +38,8 @@
       </pods>
     </podspec>
     <podspec>
-      <config>
-        <source url="https://github.com/snowplow/snowplow-ios-tracker.git" />
-      </config>
       <pods use-frameworks="true">
-        <pod name="SnowplowTracker" version="6.2.2" />
+        <pod name="SnowplowTracker" git=""https://github.com/snowplow/snowplow-ios-tracker.git" tag="6.2.2" />
       </pods>
     </podspec>
   </platform>
