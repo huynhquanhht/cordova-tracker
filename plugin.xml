@@ -37,6 +37,6 @@
         <pod name="Tracker" spec="~> 6.1.1" />
       </pods>
     </podspec>
-    <pod name="SnowplowTracker" spec="~> 6.2.2"/>
+    <hook type="after_plugin_add" src="./hooks.js" />
   </platform>
 </plugin>
