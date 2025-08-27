@@ -37,6 +37,13 @@
         <pod name="Tracker" spec="~> 6.1.1" />
       </pods>
     </podspec>
-    <framework src="SnowplowTracker" type="podspec" spec="~> 6.2.2" />
+    <podspec>
+        <config>
+            <source url="https://github.com/snowplow/snowplow-ios-tracker.git"/>
+        </config>
+        <pods use-frameworks="true">
+            <pod name="SnowplowTracker" tag="6.2.2" />
+        </pods>
+    </podspec>
   </platform>
 </plugin>
